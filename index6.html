@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu prórpio servidor</p>
+
+    <!-- <video src="video/cafe.mp4" width="250" controls></video>
+    <video src="video/cafe2.webm" width="250" controls></video> -->
+
+<video width="560" height="315" poster="imagens/grande.png" controls>
+    <source src="video/cafe.mp4" type="video/mp4">
+    <source src="video/cafe2.webm" type="video/webm">
+    Infelizmente seu navegador não consegue reproduzir este vídeo.
+</video>    
+
+<h1>Inserindo vídeos do YouTube</h1>
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/W8dWDjwkMDw?si=XOXFPUIHEXHtbu8W" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+</iframe>
+
+
+</body>
+</html>
