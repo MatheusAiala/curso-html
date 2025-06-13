@@ -12,3 +12,10 @@ body {
     flex-wrap: wrap;
     padding: 20px;
 }
+
+#titulo {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
